@@ -13,6 +13,6 @@ app.get("/", function (req, res) {
 // "/bye"=> "Goodbye!"
 // "/dog"=> "MEOW!"
 
-app.listen(3000, "http://81.2.254.9", function () {
+app.listen(3000, '81.2.254.9', function () {
     console.log("Server has started!!");
-})
+});
